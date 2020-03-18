@@ -1,0 +1,9 @@
+var commonOptions = {};
+commonOptions.apiKey = "b0d4d9d6-a237-4d28-b68c-096742f3fc1d"; // Fill in
+commonOptions.appName = "londonhydro"; // Fill in
+commonOptions.sott = "<SOTT>"; // Fill in
+commonOptions.hashTemplate = true;
+commonOptions.formValidationMessage = true;
+commonOptions.verificationUrl = window.location.href.slice(0, window.location.href.lastIndexOf('/')).concat("/loginscreen");
+commonOptions.resetPasswordUrl = window.location.href.slice(0, window.location.href.lastIndexOf('/')).concat("/loginscreen");
+var LRObject = new LoginRadiusV2(commonOptions);
